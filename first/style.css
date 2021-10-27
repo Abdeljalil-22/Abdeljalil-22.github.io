@@ -1,0 +1,92 @@
+body{
+    background-color: darkcyan;
+}
+.contant{
+    margin: 0 auto;
+    top: 15%;
+}
+h1{
+    text-align: center;
+    margin: 2em;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 10px;
+    width: 40%;
+    border:none;
+    border-radius:0 ;
+}
+#btn{
+    background-color: rgba(51, 139, 197, 0.753);
+    padding: 5px;
+    border-radius:0 ;
+    border:none;
+    /* width: 14%; */
+}
+#btn:hover{
+    color:white;
+}
+i{
+font-size: 2em;
+} 
+li{
+    list-style: none;
+}
+button{
+    display:inline-block;
+}
+.todo-contanr{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.todo-list{
+    min-width: 30%;
+}
+.todo{
+    margin: 0.5rem;
+    background: rgb(255, 255, 255);
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.todo li{
+    flex: 1;
+}
+.completad-btn,.trashBtn-btn{
+    background-color: rgba(51, 139, 197, 0.753);
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 1rem;
+    cursor:pointer;
+    font-size: 1rem;
+
+}
+.completad-btn{
+    background-color: rgba(36, 201, 36, 0.541);
+}
+.trashBtn-btn{
+    background-color: rgba(241, 52, 52, 0.651);
+}
+.todo-item{
+    padding: 0rem 0.5rem;
+}
+.fa-trash,.fa-check{
+    pointer-events: none;
+}
+.complitad{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0 ;
+}
