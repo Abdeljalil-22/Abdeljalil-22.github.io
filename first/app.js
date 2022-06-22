@@ -12,7 +12,7 @@ todoList.addEventListener('click',deletecheck);
 function addTodo(event){
 
     event.preventDefault();
-//  console.log("hello")
+if(todoInput.value !== ""){
     //to do div
     const todoDiv = document.createElement("div");
     todoDiv.classList.add('todo');
@@ -38,6 +38,9 @@ function addTodo(event){
 
 
 todoList.appendChild(todoDiv);
+}else{
+   alert('add text ??')
+}
 }
 
 
